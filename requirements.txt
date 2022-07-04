@@ -1,0 +1,6 @@
+requests
+urllib3
+lxml
+loguru
+halo
+tqdm

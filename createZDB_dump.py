@@ -15,14 +15,8 @@ import re
 import sys
 
 def setup_requests() -> requests.Session:
-        """Sets up a requests session to automatically retry on errors
-
-        cf. <https://findwork.dev/blog/advanced-usage-python-requests-timeouts-retries-hooks/>
-
-        Returns
-        -------
-        http : requests.Session
-            A fully configured requests Session object
+        """
+        Sets up a requests session to automatically retry on errors
         """
         http = requests.Session()
         assert_status_hook = (
@@ -41,9 +35,10 @@ def setup_requests() -> requests.Session:
         return http
 
 def getResumptionToken(response) -> str:
-
+    """
+    Extract ResumptionToken from OAI Response
+    """
     namespaces = {"oai": "http://www.openarchives.org/OAI/2.0/"}
-    # print(type(response))
     try:
         root = etree.XML(response.content)
     except etree.XMLSyntaxError as e:
@@ -64,10 +59,12 @@ def getResumptionToken(response) -> str:
             else:
                 token = None
             urllib.parse.quote_plus(token)
-        print(' Token: ' + token)
     return token
 
 def getListSize(url):
+    """
+    Extract stated listSize of OAI Response
+    """
     r = http.get(url)
     rtree = etree.fromstring(r.text.encode('utf-8'))
     if rtree.find('.//oai:resumptionToken', NAMESPACES) is not None:
@@ -83,7 +80,8 @@ def getOAIrecords(url) -> str:
         resumptiontoken = rtree.find('.//oai:resumptionToken', NAMESPACES).text
     else:
         resumptiontoken = None
-    for e in rtree.findall('.//oai:record//oai:metadata/rdf:RDF/rdf:Description', NAMESPACES):
+    oairecords = rtree.findall('.//oai:record//oai:metadata/rdf:RDF/rdf:Description', NAMESPACES)
+    for e in oairecords:
         record_dict = { 'about': '',
                         'datemodified': '',
                         'elem': ''}
@@ -96,7 +94,8 @@ def getOAIrecords(url) -> str:
             record_dict['datemodified'] = datetime.datetime.strptime(e_datemodified, '%Y-%m-%dT%H:%M:%S.%f')
             record_dict['elem'] = e
             oai_records[e_about] = record_dict
-    return resumptiontoken
+
+    return resumptiontoken, len(oairecords)
 
 logger.remove()
 lognamefilename = time.strftime("%Y-%m-%d_%H-%M-%S") + "_zdbdump-update.log"
@@ -108,14 +107,12 @@ logger.add(
         enqueue=True
     )
 
-# DUMP = 'https://opendata:opendata@data.dnb.de/zdb_lds_20220228.rdf.gz'
 DUMP = sys.argv[1]
 if DUMP.startswith('http'):
     DUMP_NAME = DUMP.split('/')[-1]
 else:
     DUMP_NAME = Path(DUMP).name
 DUMP_DATE = re.findall(r'.*(\d{8})\.rdf\.gz', DUMP_NAME)[0]
-# OAI_DATE = '2022-07-03'
 OAI_DATE = re.sub(r'(\d{4})(\d{2})(\d{2})', r'\1-\2-\3', DUMP_DATE)
 BASEURL = "https://services.dnb.de/oai/repository?"
 PREFIX = "&metadataPrefix=RDFxml"
@@ -123,6 +120,7 @@ SET = "&set=zdb"
 FROM = f"&from={OAI_DATE}"
 CWD = Path.cwd()
 NAMESPACES = {
+        "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "schema":"http://schema.org/",
         "gndo":"https://d-nb.info/standards/elementset/gnd#",
         "lib":"http://purl.org/library/",
@@ -147,7 +145,6 @@ NAMESPACES = {
         "dnbt":"https://d-nb.info/standards/elementset/dnb#",
         "madsrdf":"http://www.loc.gov/mads/rdf/v1#",
         "dnb_intern":"http://dnb.de/",
-        "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "v":"http://www.w3.org/2006/vcard/ns#",
         "wdrs":"http://www.w3.org/2007/05/powder-s#",
         "ebu":"http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#",
@@ -174,12 +171,12 @@ else:
     logger.info("Der Dump liegt lokal vor")
 
 
-# Dump Inhalt lesen und in LXML einlesen
 with Halo(text='Parse Dump', spinner='dots'):
+    # Dump Inhalt lesen und in LXML einlesen
     with gzip.open(Path(CWD, DUMP_NAME), 'rb') as f:
         dump_content = f.read()
     tree = etree.parse(BytesIO(dump_content))
-    # Über alle Elemente iterieren
+    # Über alle Elemente iterieren und Dictionary füllen
     zdb_descriptions = tree.findall('./rdf:Description', NAMESPACES)
     zdb_entries = {}
     for e in zdb_descriptions:
@@ -201,13 +198,25 @@ logger.info(f'Dump beinhaltet {len(zdb_entries)} Einträge')
 
 oai_records = {}
 
-logger.info(f'{getListSize(BASEURL + "verb=ListRecords" + PREFIX + SET + FROM)} aktualisierte Records auf der OAI Schnittstelle ({BASEURL + "verb=ListRecords" + PREFIX + SET + FROM})')
+listsize = getListSize(BASEURL + "verb=ListRecords" + PREFIX + SET + FROM)
 
-resumptiontoken = getOAIrecords(BASEURL + "verb=ListRecords" + PREFIX + SET + FROM)
+logger.info(f'{listsize} aktualisierte Records auf der OAI Schnittstelle ({BASEURL + "verb=ListRecords" + PREFIX + SET + FROM})')
 
-with Halo(text='Rufe Daten über OAI ab', spinner='dots'):
+resumptiontoken = getOAIrecords(BASEURL + "verb=ListRecords" + PREFIX + SET + FROM)[0]
+
+# Generator und andere Nutzung von tqdm damit wir für den while-loop eine Progressbar bekommen
+
+def generator(resumptiontoken):
+    records = 0
     while resumptiontoken:
-        resumptiontoken = getOAIrecords(BASEURL + 'verb=ListRecords&resumptionToken=' + resumptiontoken)
+        resumptiontoken, numberofcompletedrecords = getOAIrecords(BASEURL + 'verb=ListRecords&resumptionToken=' + resumptiontoken)
+        records += numberofcompletedrecords
+        yield
+
+pbar = tqdm(desc='OAI Harvesting', dynamic_ncols=True, total=int(listsize))
+for _ in generator(resumptiontoken):
+    pbar.update(50)
+pbar.close()
 
 logger.info(f'{len(oai_records)} Datensätze über OAI bekommen')
 
@@ -215,7 +224,6 @@ numberofupdatedrecords = 0
 numberofnewrecords = 0
 
 logger.info(f"Gleiche OAI und ZDB Einträge ab und aktualisiere Daten")
-
 
 for e in tqdm(oai_records, desc='Abgleich', dynamic_ncols=True):
     try:
@@ -233,19 +241,23 @@ for e in tqdm(oai_records, desc='Abgleich', dynamic_ncols=True):
 
 logger.info(f"Insgesamt {numberofupdatedrecords} aktualisiert")
 logger.info(f"Insgesamt {numberofnewrecords} neu hinzugefügt")
-# %%
-# %%
+
 new_zdb_tree = etree.Element('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF')
-for e in tqdm(zdb_entries, desc='XML Erstellung',dynamic_ncols=True):
-    new_zdb_tree.append(zdb_entries[e]['elem'])
+for e in tqdm(zdb_entries, desc='XML Erstellung', dynamic_ncols=True):
+    elem = zdb_entries[e]['elem']
+    new_zdb_tree.append(elem)
 
 logger.info("Dump erstellt")
 
+with Halo(text='Clean up Dump', spinner='dots'):
+    tree = etree.ElementTree(new_zdb_tree)
+    etree.cleanup_namespaces(tree, top_nsmap=NAMESPACES, keep_ns_prefixes=['rdf'])
+logger.info(f"Namespaces korrigiert und LXML Tree geschrieben")
+
+newdumpname = f"zdb_lds_{datetime.datetime.today().strftime('%Y%m%d')}.rdf.gz"
 with Halo(text='Schreibe Dump', spinner='dots'):
-    newdumpname = f"zdb_lds_{datetime.datetime.today().strftime('%Y%m%d')}.rdf.gz"
     with gzip.open(newdumpname, 'wb') as f:
-        tree = etree.ElementTree(new_zdb_tree)
-        tree.write(f, encoding="UTF-8", xml_declaration=False)
+        tree.write(f, encoding="UTF-8", xml_declaration=True)
 
 logger.info(f"Aktualisierten Dump in Datei {newdumpname} geschrieben")
 

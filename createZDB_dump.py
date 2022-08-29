@@ -97,7 +97,7 @@ def getOAIrecords(url) -> str:
 
     return resumptiontoken, len(oairecords)
 
-logger.remove()
+# logger.remove()
 lognamefilename = time.strftime("%Y-%m-%d_%H-%M-%S") + "_zdbdump-update.log"
 logfile = lognamefilename
 logger.add(
@@ -209,9 +209,13 @@ resumptiontoken = getOAIrecords(BASEURL + "verb=ListRecords" + PREFIX + SET + FR
 def generator(resumptiontoken):
     records = 0
     while resumptiontoken:
-        resumptiontoken, numberofcompletedrecords = getOAIrecords(BASEURL + 'verb=ListRecords&resumptionToken=' + resumptiontoken)
-        records += numberofcompletedrecords
-        yield
+        try:
+            resumptiontoken, numberofcompletedrecords = getOAIrecords(BASEURL + 'verb=ListRecords&resumptionToken=' + resumptiontoken)
+        except Exception as e:
+            logger.warning(e)
+        else:
+            records += numberofcompletedrecords
+            yield
 
 pbar = tqdm(desc='OAI Harvesting', dynamic_ncols=True, total=int(listsize))
 for _ in generator(resumptiontoken):
@@ -242,16 +246,16 @@ for e in tqdm(oai_records, desc='Abgleich', dynamic_ncols=True):
 logger.info(f"Insgesamt {numberofupdatedrecords} aktualisiert")
 logger.info(f"Insgesamt {numberofnewrecords} neu hinzugefügt")
 
-new_zdb_tree = etree.Element('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF')
+newRootElement = etree.Element('{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF')
 for e in tqdm(zdb_entries, desc='XML Erstellung', dynamic_ncols=True):
     elem = zdb_entries[e]['elem']
-    new_zdb_tree.append(elem)
+    newRootElement.append(elem)
 
 logger.info("Dump erstellt")
 
 with Halo(text='Clean up Dump', spinner='dots'):
-    tree = etree.ElementTree(new_zdb_tree)
-    etree.cleanup_namespaces(tree, top_nsmap=NAMESPACES, keep_ns_prefixes=['rdf'])
+    tree = etree.ElementTree(newRootElement)
+    # etree.cleanup_namespaces(tree, top_nsmap=NAMESPACES, keep_ns_prefixes=['rdf'])
 logger.info(f"Namespaces korrigiert und LXML Tree geschrieben")
 
 newdumpname = f"zdb_lds_{datetime.datetime.today().strftime('%Y%m%d')}.rdf.gz"

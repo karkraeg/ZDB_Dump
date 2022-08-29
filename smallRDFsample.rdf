@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:gndo="https://d-nb.info/standards/elementset/gnd#"
+	xmlns:lib="http://purl.org/library/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:editeur="https://ns.editeur.org/thema/"
+	xmlns:geo="http://www.opengis.net/ont/geosparql#"
+	xmlns:umbel="http://umbel.org/umbel#"
+	xmlns:rdau="http://rdaregistry.info/Elements/u/"
+	xmlns:sf="http://www.opengis.net/ont/sf#"
+	xmlns:bflc="http://id.loc.gov/ontologies/bflc/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:isbd="http://iflastandards.info/ns/isbd/elements/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:mo="http://purl.org/ontology/mo/"
+	xmlns:marcRole="http://id.loc.gov/vocabulary/relators/"
+	xmlns:agrelon="https://d-nb.info/standards/elementset/agrelon#"
+	xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+	xmlns:dbp="http://dbpedia.org/property/"
+	xmlns:dnbt="https://d-nb.info/standards/elementset/dnb#"
+	xmlns:madsrdf="http://www.loc.gov/mads/rdf/v1#"
+	xmlns:dnb_intern="http://dnb.de/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:v="http://www.w3.org/2006/vcard/ns#"
+	xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+	xmlns:ebu="http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#"
+	xmlns:bibo="http://purl.org/ontology/bibo/"
+	xmlns:gbv="http://purl.org/ontology/gbv/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/5-X">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000011</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)5-X</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)183277955</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4066724-8"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hrsg. vom Bundesministerium für Gesamtdeutsche Fragen. Red. Günter Fischbach</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bis Z</dc:title>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/2028926-1"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aufl. 11.1969</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dt. Bundes-Verl.</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonn</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonn : Dt. Bundes-Verl.</rdau:P60333>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/874-6"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/130385-5"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4011890-3"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4066724-8"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4011890-3"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">050</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">940</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/5-X">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-18T12:21:08.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1969-1969</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ein Taschen- u. Nachschlagebuch über d. anderen Teil Deutschlands</rdau:P60493>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/7-3">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)01000002X</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0375-2135</bibo:issn>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0375-2135</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)7-3</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMTFB</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)224540449</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://id.loc.gov/vocabulary/frequencies/irr"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Publ.: Museum für Tierkunde Dresden, Staatliche Naturhistorische Sammlungen Dresden</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faunistische Abhandlungen</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAUN ABH (DRES)</bibo:shortTitle>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/35521-5"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1963/66 - 26.2008; damit Ersch. eingest.</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Museum für Tierkunde</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dresden</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dresden : Museum für Tierkunde</rdau:P60333>
+	<rdau:P60539 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 cm</rdau:P60539>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2233959-0"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/6068-9"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/16022605-3"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">590</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">590</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/7-3">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-03T21:41:02.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963-2008</dcterms:issued>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/01000002X">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/7-3">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-01000002X"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/9-7">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000038</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0070-7260</bibo:issn>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0070-7260</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)9-7</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMTMB</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)643914482</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://id.loc.gov/vocabulary/frequencies/irr"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staatliches Museum für Tierkunde Dresden</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malakologische Abhandlungen</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MALAKOL ABH (DRES)</bibo:shortTitle>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malakol. Abh.</bibo:shortTitle>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/35521-5"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1964/67 - 24.2006</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Museum für Tierkunde</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dresden</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dresden : Museum für Tierkunde</rdau:P60333>
+	<rdau:P60539 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24 cm</rdau:P60539>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/6068-9"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/2280187-X"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/16022605-3"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4051176-5"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4060087-7"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4352566-0"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">590</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">590</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/9-7">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T22:13:01.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1964-2006</dcterms:issued>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000038">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/9-7">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000038"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/10-3">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000046</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)10-3</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)183215696</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Consiglio Nazionale delle Ricerche, Centro di Studio per la Polarografia</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bibliografia polarografica</dc:title>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bibliografia polarografica / 1</dcterms:alternative>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[1/3.]1922/49(1949); 4.1922/51(1951) - 15.1922/62(1964)</rdau:P60128>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spoleto</rdau:P60163>
+	<dcterms:isPartOf rdf:resource="https://ld.zdb-services.de/resource/205482-6"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/3564-6"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">540</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/10-3">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:03.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1949-1964</dcterms:issued>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bibliografia polarografica / P. 1, Elenco dei lavori e indice degli autori</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/12-7">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000054</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0371-5264</bibo:issn>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0371-5264</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)12-7</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAOGA</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)263588241</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://id.loc.gov/vocabulary/frequencies/irr"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hrsg. unter Mitw. ... von Wilfried Meyer</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technisch-wissenschaftliche Abhandlungen der Osram-Gesellschaft</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tech.-Wiss. Abh. Osram-Ges.</bibo:shortTitle>
+	<dcterms:creator rdf:resource="https://d-nb.info/gnd/1300429-3"/>
+	<marcRole:aut rdf:resource="https://d-nb.info/gnd/1300429-3"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5.1943; 6.1953 - 11.1973; 12.1986; damit Ersch. eingest.</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Springer</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berlin</rdau:P60163>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Göttingen</rdau:P60163>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heidelberg</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Berlin ; Göttingen ; Heidelberg : Springer</rdau:P60333>
+	<rdau:P60470 xml:lang="de">Nachdruck Bd. 9.1967 erschien 2014</rdau:P60470>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/502428-6"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4035633-4"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">600</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">600</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/12-7">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-10T21:22:43.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1943-1986</dcterms:issued>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000054">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/12-7">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000054"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/13-9">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000062</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0375-5231</bibo:issn>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0375-5231</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)13-9</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZASMA</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)643926073</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://id.loc.gov/vocabulary/frequencies/irr"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Staatliche Naturhistorische Sammlungen Dresden, Museum für Tierkunde</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zoologische Abhandlungen</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZOOL ABH (DRESD)</bibo:shortTitle>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/35521-5"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">26.1961/64 - 56.2006</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Museum für Tierkunde</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dresden</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dresden : Museum für Tierkunde</rdau:P60333>
+	<rdau:P60539 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25 cm</rdau:P60539>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2392089-0"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/6068-9"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/2383989-2"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">590</dc:subject>
+	<dcterms:subject rdf:resource="http://dewey.info/class/590.5/e22/"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">590</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/13-9">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-03T21:41:02.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1961-2006</dcterms:issued>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000062">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/13-9">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000062"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/15-2">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000070</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)15-2</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)310926585</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The American behavioral scientist</dc:title>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The @ABS guide to recent publications in the social and behavioral sciences</rdau:P60493>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The American behavioral scientist / {The ABS guide to recent publications in the social and behavioral sciences</dcterms:alternative>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Behavioral Scientist</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York, NY</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York, NY : American Behavioral Scientist</rdau:P60333>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pergamon Press</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford [u.a.]</rdau:P60163>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frankfurt, M.</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oxford [u.a.] ; Frankfurt, M. : Pergamon Press</rdau:P60333>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/1355410-4"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">390</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">300</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/15-2">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:04.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1965-1965</dcterms:issued>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The American behavioral scientist, The ABS guide to recent publications in the social and behavioral sciences</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/16-4">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000089</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0001-9895</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)16-4</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)183277958</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulletin analytique africaniste</dcterms:alternative>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">African abstracts</dc:title>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/1005929-5"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1950 - 23.1972; damit Ersch. eingest.</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Internat. African Inst.</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London : Internat. African Inst.</rdau:P60333>
+	<rdau:P60470 xml:lang="de">Parallelsacht. bis 17.1966</rdau:P60470>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1084053-9"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">390</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/16-4">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T10:54:02.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1950-1972</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revue trimestr. d'études ethnologiques, sociales et linguistiques paraissant dans les périodiques du jour</rdau:P60493>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/17-6">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1002"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1022"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000097</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0072-5730</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)17-6</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)1143182</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4056995-0"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4135952-5"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annual abstract of statistics</dc:title>
+	<dcterms:creator rdf:resource="https://d-nb.info/gnd/35545-8"/>
+	<marcRole:aut rdf:resource="https://d-nb.info/gnd/35545-8"/>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/4022153-2"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84.1935/46(1948) - 132.1996</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMSO</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London : HMSO</rdau:P60333>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/127303-6"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/1361914-7"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4022153-2"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4126610-9"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">310</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/17-6">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-11-02T18:06:23.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1948-1996</dcterms:issued>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000097">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/17-6">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000097"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/18-8">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000100</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0006-3169</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)18-8</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BIABA</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)183277963</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">staff of the central ed. off. John E. Flynn [u.a.]</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological abstracts</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biol. Abstr.</bibo:shortTitle>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BA</dcterms:alternative>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1926/27(1927) -</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Abstracts</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philadelphia, Pa.</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philadelphia, Pa. : Biological Abstracts</rdau:P60333>
+	<dcterms:isPartOf rdf:resource="https://ld.zdb-services.de/resource/795326-4"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/162322-9"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1101955-4"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2108051-3"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2188093-1"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1437061-X"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/840708-3"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/840725-3"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/795326-4"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/210064-2"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/210065-4"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/282104-7"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">570</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/18-8">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-20T02:18:04.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1927-</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BA ; publ. with coop. of individual biologists, biolog. industries, and biolog. journals generally. Covering the world's biolog. research literature</rdau:P60493>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/19-X">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1002"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1022"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000119</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0009-2258</bibo:issn>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0097-6474</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)19-X</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHABA</bibo:coden>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACICQ</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)183277966</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical abstracts</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chem. Abstr.</bibo:shortTitle>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CA</dcterms:alternative>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/853-9"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1907 - 151.2009</rdau:P60128>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Columbus, Ohio</rdau:P60163>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/280357-4"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/280358-6"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1226046-0"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1400963-8"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2159254-8"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/209916-0"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/1309338-1"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/2229301-2"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4009816-3"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4009816-3"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">540</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">540</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/19-X">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-11T23:39:00.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1907-2009</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">key to the world's chemical literature ; publ. weekly by the American Chemical Society ; CA</rdau:P60493>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000119">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/19-X">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000119"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/20-6">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000127</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)20-6</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)643509853</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/1071861417"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstracts of communications</dc:title>
+	<dcterms:creator rdf:resource="https://d-nb.info/gnd/240964-1"/>
+	<marcRole:aut rdf:resource="https://d-nb.info/gnd/240964-1"/>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/1030917-2"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nachgewiesen 6.1948 - 11.1963</rdau:P60128>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copenhagen [u.a.]</rdau:P60163>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/6476-2"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/503698-7"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">610</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/20-6">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:07.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1948-1963</dcterms:issued>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000127">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/20-6">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000127"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/21-8">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000135</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0001-3684</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)21-8</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)224455600</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">executive ed. W. H. Nagel [u.a.]</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstracts on criminology and penology</dc:title>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">9.1969 - 19.1979</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kluwer</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deventer</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deventer : Kluwer</rdau:P60333>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/216594-6"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/282951-4"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">340</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/21-8">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-11T12:12:53.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1969-1979</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">an internat. abstracting service covering the etiology of crime and juvenile delinquency, ... and the administration of justice</rdau:P60493>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000135">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/21-8">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000135"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/22-X">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000143</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0011-3166</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)22-X</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)1565597</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publ. ... by The Joint Committee on Slavic Studies appointed by the American Council of Learned Societies and the Social Science Research Council</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Current abstracts of the Soviet press</dc:title>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/43033-X"/>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/40535-8"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1968/69 - 2.1969/70</rdau:P60128>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York, NY</rdau:P60163>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/1708-5"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">010</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/22-X">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:08.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1968-1970</dcterms:issued>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/23-1">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000151</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0012-9917</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)23-1</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)263588243</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Managing ed. The Library of the Economic Information Service (Ministry of Economic Affairs) and Netherlands School of Economics</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Economic abstracts</dc:title>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/42120-0"/>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/42121-2"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1953/54 - 22.1975</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nijhoff</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hague</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Hague : Nijhoff</rdau:P60333>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/125369-4"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/130410-0"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">300</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">330</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/23-1">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:08.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1953-1975</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semi-monthly review of abstracts on economics, finance, trade and industry, management and labour</rdau:P60493>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/24-3">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)01000016X</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0001-3587</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)24-3</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)224477480</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publ. for the American Folklore Society. Ed. Donald M. Winkelman</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstracts of folklore studies</dc:title>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1963 - 13.1975; damit Ersch. eingest.</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soc.</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austin, Tex.</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Austin, Tex. : Soc.</rdau:P60333>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4078937-8"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">390</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/24-3">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-05T11:54:14.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1963-1975</dcterms:issued>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/25-5">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000178</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0016-7320</bibo:issn>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0268-7879</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)25-5</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)705110483</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographical abstracts</dc:title>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographical abstracts / A</dcterms:alternative>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1966 - 1971; 1986 - 1988</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geo Abstracts</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norwich</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Norwich : Geo Abstracts</rdau:P60333>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/6073-2"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/184250-X"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/184250-X"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/625098-1"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4130684-3"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4048009-4"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">910</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/25-5">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:08.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1966-1988</dcterms:issued>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geographical abstracts / A, Landforms and the quaternary</dc:title>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/26-7">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000186</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0096-5316</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)26-7</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADENA</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)231012230</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://id.loc.gov/vocabulary/frequencies/irr"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advances in enzymology and related subjects of biochemistry</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adv. Enzymol. Relat. Subj. Biochem.</bibo:shortTitle>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adv. Enzymol.</bibo:shortTitle>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3.1943 - 28.1966</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interscience Publ.</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York, NY [u.a.]</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York, NY [u.a.] : Interscience Publ.</rdau:P60333>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/146-6"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/27-9"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4006780-4"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4006777-4"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">570</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">540</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">570</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">540</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/26-7">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-20T01:10:09.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1943-1966</dcterms:issued>
+	<owl:sameAs>
+		<rdf:Description rdf:about="https://d-nb.info/010000186">
+			<owl:sameAs>
+				<rdf:Description rdf:about="https://ld.zdb-services.de/resource/26-7">
+					<owl:sameAs rdf:resource="http://hub.culturegraph.org/resource/DNB-010000186"/>
+				</rdf:Description>
+			</owl:sameAs>
+		</rdf:Description>
+	</owl:sameAs>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/27-9">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000194</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0065-258x</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)27-9</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AERAA</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)42314229</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<dcterms:accrualPeriodicity rdf:resource="http://id.loc.gov/vocabulary/frequencies/irr"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advances in enzymology and related areas of molecular biology</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adv Enzymol</bibo:shortTitle>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adv. Enzymol. Relat. Areas Mol. Biol.</bibo:shortTitle>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">29.1967 - 78.2011</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiley</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoboken, NJ</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoboken, NJ : Wiley</rdau:P60333>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/26-7"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/2545444-4"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">570</dc:subject>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Advances in enzymology</dcterms:alternative>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/27-9">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T21:32:32.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1967-2011</dcterms:issued>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/29-2">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000208</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0020-8264</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)29-2</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPMAA</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)631692441</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International pharmaceutical abstracts</dc:title>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPA</dcterms:alternative>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/5191230-2"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1964 - 49.2012</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thomson Reuters</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philadelphia, Pa.</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philadelphia, Pa. : Thomson Reuters</rdau:P60333>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2047598-6"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/2166261-7"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1105784-1"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">610</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/29-2">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-25T12:31:38.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1964-2012</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IPA</rdau:P60493>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/30-9">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000216</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0020-5818</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)30-9</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">International abstracts of biological sciences</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IABS</bibo:shortTitle>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Int Abstr Biol Sci</bibo:shortTitle>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4.1956 - 99.1980</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pergamon Pr.</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London [u.a.]</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">London [u.a.] : Pergamon Pr.</rdau:P60333>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/6076-8"/>
+	<rdau:P60278 rdf:resource="https://ld.zdb-services.de/resource/283572-1"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">570</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/30-9">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-12-19T23:40:04.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1956-1980</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a comprehensive survey of the world literature</rdau:P60493>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/31-0">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000224</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0026-1130</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)31-0</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MGEAA</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)643510671</dc:identifier>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">American Meteorological Society</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meteorological and geoastrophysical abstracts</dc:title>
+	<bibo:shortTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meteorol. Geoastrophys. Abstr.</bibo:shortTitle>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">11.1960 -</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soc.</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Littleton</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Littleton : Soc.</rdau:P60333>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/428702-2"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/2381645-4"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/2744794-7"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2205334-7"/>
+	<rdau:P60261 rdf:resource="https://ld.zdb-services.de/resource/416215-8"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">550</dc:subject>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meteorological &amp; geoastrophysical abstracts</dcterms:alternative>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/31-0">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:10.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1960-</dcterms:issued>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/33-4">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1002"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1022"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1056"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000232</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0033-2887</bibo:issn>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0277-0091</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)33-4</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)643746565</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publ. by the American Psychological Association</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psychological abstracts</dc:title>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/959-3"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1927 -</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assoc.</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington, DC</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington, DC : Assoc.</rdau:P60333>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2063485-7"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2023022-9"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1035218-1"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/218571-4"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4047704-6"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4047704-6"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">150</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/33-4">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-03T21:30:40.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1927-</dcterms:issued>
+	<rdau:P60493 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nonevaluative summaries of the serial and book literature in psychology and related disciplines</rdau:P60493>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/36-X">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000240</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)36-X</dc:identifier>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)633264060</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstracts</dc:title>
+	<dcterms:creator rdf:resource="https://d-nb.info/gnd/1345-6"/>
+	<marcRole:aut rdf:resource="https://d-nb.info/gnd/1345-6"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1961(1962) - 1982(1983) nachgewiesen</rdau:P60128>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New York, NY</rdau:P60163>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/962627-X"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">550</dc:subject>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/36-X">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-01T12:00:11.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1962-1983</dcterms:issued>
+</rdf:Description>
+<rdf:Description rdf:about="https://ld.zdb-services.de/resource/37-1">
+	<rdf:type rdf:resource="http://purl.org/ontology/bibo/Periodical"/>
+	<dcterms:medium rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1044"/>
+	<rdau:P60049 rdf:resource="http://rdaregistry.info/termList/RDAContentType/1020"/>
+	<rdau:P60050 rdf:resource="http://rdaregistry.info/termList/RDAMediaType/1007"/>
+	<rdau:P60048 rdf:resource="http://rdaregistry.info/termList/RDACarrierType/1049"/>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-101)010000259</dc:identifier>
+	<bibo:issn rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0038-0202</bibo:issn>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(DE-600)37-1</dc:identifier>
+	<bibo:coden rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOABAT</bibo:coden>
+	<dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(OCoLC)643521413</dc:identifier>
+	<dcterms:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+	<rdau:P60048 rdf:resource="https://d-nb.info/gnd/4139307-7"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4067488-5"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4177322-6"/>
+	<rdau:P60049 rdf:resource="https://d-nb.info/gnd/4006432-3"/>
+	<rdau:P60327 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">co-sponsored by the American Sociological Association, Eastern Sociological Society, the International Sociological Association and the Midwest Sociological Society</rdau:P60327>
+	<dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sociological abstracts</dc:title>
+	<marcRole:isb rdf:resource="https://d-nb.info/gnd/140989-X"/>
+	<rdau:P60128 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.1952/53 -</rdau:P60128>
+	<dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cambridge Scientific Abstracts</dc:publisher>
+	<rdau:P60163 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bethesda, Md.</rdau:P60163>
+	<rdau:P60333 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bethesda, Md. : Cambridge Scientific Abstracts</rdau:P60333>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/783127-4"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/210211-0"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/199606-X"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/715741-1"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/131482-8"/>
+	<dcterms:hasPart rdf:resource="https://ld.zdb-services.de/resource/2299566-3"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1144692-4"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/1461937-4"/>
+	<dcterms:relation rdf:resource="https://ld.zdb-services.de/resource/2032307-4"/>
+	<rdau:P60263 rdf:resource="https://ld.zdb-services.de/resource/2854676-3"/>
+	<rdau:P60263 rdf:resource="https://ld.zdb-services.de/resource/2915966-0"/>
+	<dcterms:subject rdf:resource="https://d-nb.info/gnd/4055916-6"/>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">300</dc:subject>
+	<dc:subject rdf:datatype="https://d-nb.info/standards/elementset/dnb#ddc-subject-category">390</dc:subject>
+	<dcterms:alternative rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA</dcterms:alternative>
+	<wdrs:describedby>
+		<rdf:Description rdf:about="https://ld.zdb-services.de/data/37-1">
+			<dcterms:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+			<dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-03T21:17:01.000</dcterms:modified>
+		</rdf:Description>
+	</wdrs:describedby>
+	<dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1952-</dcterms:issued>
+</rdf:Description>
+</rdf:RDF>

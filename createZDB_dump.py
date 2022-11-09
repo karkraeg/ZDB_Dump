@@ -198,11 +198,13 @@ logger.info(f'Dump beinhaltet {len(zdb_entries)} Einträge')
 
 oai_records = {}
 
-listsize = getListSize(BASEURL + "verb=ListRecords" + PREFIX + SET + FROM)
+URL = BASEURL + "verb=ListRecords" + PREFIX + SET + FROM
 
-logger.info(f'{listsize} aktualisierte Records auf der OAI Schnittstelle ({BASEURL + "verb=ListRecords" + PREFIX + SET + FROM})')
+listsize = getListSize(URL)
 
-resumptiontoken = getOAIrecords(BASEURL + "verb=ListRecords" + PREFIX + SET + FROM)[0]
+logger.info(f'{listsize} aktualisierte Records auf der OAI Schnittstelle ({URL})')
+
+resumptiontoken = getOAIrecords(URL)[0]
 
 # Generator und andere Nutzung von tqdm damit wir für den while-loop eine Progressbar bekommen
 
